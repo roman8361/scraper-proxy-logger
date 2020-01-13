@@ -28,6 +28,7 @@ public class JsoupProxyTest {
     public void showBoomers() {
         System.out.println(boomers.get("10Bet"));
     }
+
     @Test
     @SneakyThrows
     public void jsoupProxy() {
@@ -35,7 +36,7 @@ public class JsoupProxyTest {
         for (int i = 1; i < 10; i++) {
             try {
            // Document doc = Jsoup.connect("https://www.marathonbet.com").proxy("212.87.248.11", 40762).get();
-               Document doc = Jsoup.connect(bookmerUrl).proxy("5.15.180.175", 8080).get();
+               Document doc = Jsoup.connect(bookmerUrl).proxy("187.87.204.210", 45597).get();
            //     Document doc = Jsoup.connect("https://2ip.ru/").proxy("212.87.248.11", 40762).get();
         //        Document doc = Jsoup.connect("https://1xbet.com/").proxy("212.87.248.11", 40762).get();
                 System.out.println(doc);
